@@ -1,0 +1,197 @@
+/* :root {
+    --boxColor: #5C415D;
+    --mainBgColor: #F6F7EB;
+} */
+
+:root {
+    --boxColor: #F391A0;    
+    --mainBgColor: #393E41;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+#mainHead {
+    font-size: 8vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img {
+    float: left;
+}
+
+.section {
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    font-size: 100%;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+}
+
+.ed {
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 3%;
+    column-gap: 2%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid var(--mainBgColor);
+    border-radius: 2rem;
+}
+
+body {
+    background-color: var(--mainBgColor);
+    color: var(--boxColor);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    background-color: var(--boxColor);
+    color: var(--mainBgColor);
+    flex-wrap: wrap;
+    display: flex;
+    width: 98vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    padding: 1%;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+}
+
+#placeholderSec {
+    padding: 2%;
+}
+
+.butto {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    flex-wrap: wrap;
+}
+
+#ach,
+#ski,
+#edu,
+#about,
+#blo,
+#contact,
+#resume {
+    padding: 7%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Contact {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#blogsPageButton {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.blogButton {
+    font-size: larger;
+}
+
+.blog {
+    text-align: center;
+    background-color: var(--boxColor);
+    color: var(--mainBgColor);
+    border-radius: 1rem;
+    padding: 3%;
+    margin: 2%;
+}
+
+.comments {
+    text-align: center;
+    background-color: var(--boxColor);
+    color: var(--mainBgColor);
+    border-radius: 1rem;
+    padding: 1%;
+    margin: auto;
+    width: fit-content;
+}
+
+.innerCom {
+    padding: 2%;
+}
+
+#bigBox {
+    background-color: var(--boxColor);
+    color: var(--mainBgColor);
+    border: 2px solid var(--boxColor);
+}
+
+a {
+    text-decoration: solid;
+    color: var(--mainBgColor);
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: var(--mainBgColor);
+    color: var(--boxColor);
+    transform: translate(-10px);
+    transition: all 0.3s;
+}
+
+.smallBox:hover {
+    background-color: var(--mainBgColor);
+    color: var(--boxColor);
+    transform: translate(-10px);
+}
+
+.smallBox {
+    display: flex;
+    background-color: var(--boxColor);
+    color: var(--mainBgColor);
+    border: 2px solid var(--boxColor);
+    flex-wrap: wrap;
+    width: fit-content;
+    text-align: center;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 3%;
+    margin: 1%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#guru {
+    height: 300px;
+    border-radius: 1rem;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.guruImg {
+    text-align: center;
+}
